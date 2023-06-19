@@ -11,4 +11,4 @@ jobs:
         with:
             python-version: "3.8"
       - name: Install and run SQLFluff
-        run: "pipx run sqlfluff==2.1.0 lint composer-2"
+        run: "pipx run sqlfluff==2.1.0 lint files"
