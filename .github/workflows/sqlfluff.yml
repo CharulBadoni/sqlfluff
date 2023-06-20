@@ -1,0 +1,14 @@
+name: Lint sql
+
+on: [pull_request]
+
+jobs:
+  lint-sql:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v3"
+      - uses: "actions/setup-python@v4"
+        with:
+            python-version: "3.8"
+      - name: Install and run SQLFluff
+        run: "pipx run sqlfluff==2.1.0 lint files"
