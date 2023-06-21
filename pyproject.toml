@@ -10,3 +10,5 @@ extended_capitalisation_policy = "upper"
 capitalisation_policy = "upper"
 [tool.sqlfluff.rules.convention.terminator]
 require_final_semicolon = true
+[tool.sqlfluff.templater.jinja.context]
+number_1=1
