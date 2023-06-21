@@ -1,14 +1,14 @@
-[tool.sqlfluff.core]
-dialect = "bigquery"
-rules = ["LT02","CP01","AM05","AM06","CP03","LT01","LT04","LT05","LT06","LT13","RF04","AL03","AL02","AL01","CV06"]
-max_line_length = 120
-#ignore = "templating"
-
-[tool.sqlfluff.rules.capitalisation.functions]
-extended_capitalisation_policy = "upper"
-[tool.sqlfluff.rules.capitalisation.keywords]
-capitalisation_policy = "upper"
-[tool.sqlfluff.rules.convention.terminator]
-require_final_semicolon = true
-[tool.sqlfluff.templater.jinja.context]
-number_1=1
+# [tool.sqlfluff.core]
+# dialect = "bigquery"
+# rules = ["LT02","CP01","AM05","AM06","CP03","LT01","LT04","LT05","LT06","LT13","RF04","AL03","AL02","AL01","CV06"]
+# max_line_length = 120
+# #ignore = "templating"
+#
+# [tool.sqlfluff.rules.capitalisation.functions]
+# extended_capitalisation_policy = "upper"
+# [tool.sqlfluff.rules.capitalisation.keywords]
+# capitalisation_policy = "upper"
+# [tool.sqlfluff.rules.convention.terminator]
+# require_final_semicolon = true
+# [tool.sqlfluff.templater.jinja.context]
+# number_1=1
